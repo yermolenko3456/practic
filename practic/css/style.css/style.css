@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;700;900&family=Rubik+Dirt&family=Rubik+Moonrocks&family=STIX+Two+Text:ital,wght@0,500;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;700;900&family=Rubik+Dirt&family=Rubik+Moonrocks&family=STIX+Two+Text:ital,wght@0,500;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;700;900&family=Rubik+Dirt&family=Rubik+Moonrocks&family=STIX+Two+Text:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700;900&display=swap');
+
+ 
+[class*="container-"] {
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(18,19,18,0.08587184873949583) 50%, rgba(252,176,69,1) 100%);
+}
+
+main {
+	max-width: 1270px;
+	max-height: 1594px;
+	left: 345px;
+	top: 152px;
+	font-family: "Lato";
+	margin: 0 auto;
+	background-color: white;
+	}
+body {
+	font-family: "Roboto",fantasy;
+	font-weight: 400;
+	line-height: 1.5;
+	word-spacing: 10px;
+}
+h1 {
+	font-family: "Rubik Moonrocks",fantasy;
+	font-size: 60px;
+	font-weight: 600;
+}
+.header {
+	background-color: bisque;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 160%;
+	text-align: center;
+}
+.logo {
+	height: 80px;
+	width: 80px;
+	margin: 20px 50px 0px 50px;
+}
+
+.sun {
+	margin: 5px 5px 5px 5px;
+}
+
+.name {
+	padding-left: 10px;
+	margin: 0px 0px 0px 0px;
+}
+.address,
+.contacts { 
+	padding-left: 10px;
+	margin: 0px 20px 10px 10px;
+}
+.button {
+	background-color: rgba(131,58,180,1);
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 5px rgba(165, 16, 145, 0.438);
+	margin: 20px 570px 20px 570px;
+
+}
+.button-text {
+ color: white;
+ font-style: normal;
+font-weight: 700;
+font-size: 14px;
+padding: 25px;
+}
+
+.motto-block {
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto 25px;
+}
+
+.motto-text {
+	border-top: 4px double #ee1405;
+	border-left: 4px double #e6f705;
+	border-right: 4px dotted rgb(5, 238, 5);
+	border-bottom: 4px dotted rgb(15, 15, 15);
+}
+
+.text {
+	margin: 20px;
+
+	text-align: center;
+}
+ h2 {
+	margin: 50px;
+	text-shadow: 1px 1px 5px #f80505;
+ }
+ .text1 {
+	padding: 25px;
+	color: aqua;
+ }
+ .text1+p {
+	margin: 10px;
+	color: #e6f705;
+ }
+ .text2 {
+	margin: 20px;
+	text-transform: capitalize;
+ }
+
+ .description {
+	border: 4px solid rgb(12, 12, 12);
+	height: 100px;
+	width: 1200px;
+	margin: auto;
+	overflow: scroll;
+	background-color: #050505;
+	color: #b7b8bb;
+}
+
+ .list {
+	padding: 15px 20px 15px 20px;
+	margin: 50px;
+	color: azure;
+ }
+ .subparagraph {
+	padding: 25px 30px 25px 30px;
+	color: #e6f705;
+ }
+.a {
+	color: black ;
+	text-shadow: 1px 1px 5px #f80505;
+	
+}
+h3.title {
+	font-family: "Rubik Dirt", fantasy;
+	font-size: 30 px;
+}
+
+h3 {
+	color: blue;
+	margin: 15px;
+	padding: 5px;
+}
+h3+p {
+	margin: 10px;
+}
+.linc {
+	margin: 15px;
+}
+.link {
+	color: white;
+	font-size: 20px;
+}
+.best {
+	font-family: "Rubik Moonrocks",fantasy;
+	font-size: 40px;
+	font-weight: 400;
+	color: indigo;
+	text-shadow: none;
+	text-align: center;
+}
+
+.container {
+	overflow:hidden;width:1270px;
+	font-family: "Rubik Dirt", fantasy;
+	font-size: 30 px;
+	letter-spacing: 10 px;
+	word-spacing: 15px;
+	text-shadow: 5px 5px 10px rgb(34, 33, 33) ;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+	width: 300px;
+	text-align: center;
+}
+.product {
+  width: 280px;
+  height: 350px;
+}
+.box p {
+	margin: 10px;
+	color: rgb(37, 3, 99);
+}
+
+.box {
+	white-space:nowrap
+}
+.box div {
+	width:300px;display:inline-block;border:1px solid black
+}
+.excerpt {
+	margin: 10px;
+	padding: 5px;
+	color: antiquewhite;
+}
+.image-ex {
+	width: 1270px;
+	height: 600px;
+}
+footer {
+	margin: 20px;
+}
+.footer {
+	margin: 20px 370px 20px 370px;
+	padding: 0 0px 0 40px;
+}
+.button-2 {
+	background-color: rgb(180, 58, 58);
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 5px rgba(3, 0, 0, 0.438);
+	margin: 20px 570px 20px 570px;
+	text-align: center;
+}
+.link-1 {
+	color: deeppink;
+	font-size: 20px;
+}
+ol {
+	
+	margin: 50px;
+}
+
+
+
